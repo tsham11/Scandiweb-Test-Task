@@ -1,0 +1,46 @@
+#product_form {
+    margin: 0 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+#product_form label {
+    font-size: 1rem;
+    color: #4D869C;
+}
+
+#product_form  input, #product_form  select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#product_form  .error {
+    color: red;
+    font-size: 0.875rem;
+}
+
+
+@media (max-width: 1199px) and (min-width: 780px) {
+  #product_form {
+    width: 55%;
+ }
+}
+
+
+@media (max-width: 779px) and (min-width: 600px) {
+  #product_form {
+    width: 60%;
+ }
+}
+
+
+@media (max-width: 600px) {
+  #product_form {
+    width: 100%;
+  }
+}
